@@ -1,0 +1,42 @@
+.container {
+	width: 400px;
+	height: 500px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+
+
+.input {
+	width: 90%;
+	height: 50px;
+	margin: 20px auto;
+	font-size: 2rem;
+	background-color: pink;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.climate-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.weather-data {
+	width: 100%;
+}
+
+.sentence {
+	font-size: 2rem;
+	
+}

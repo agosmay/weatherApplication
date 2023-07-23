@@ -1,0 +1,53 @@
+.titulo {
+	font-size: 2.2rem;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.container-home {
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.swiper {
+	margin: 20px auto;
+	
+	
+}
+
+img {
+	width: 640px;
+	height: 356px;
+	
+}
+
+@media (min-width: 576px) {
+	.container-home{
+		width: 50%;
+	}
+	
+	img {
+		width: 800px;
+		height: 356px;
+		
+		
+	}
+	
+}
+
+@media (min-width: 800px) {
+	.container-home{
+		width: 25%;
+	}
+	
+	img {
+		width: 1700px;
+		height: 400px;
+		
+		
+	}
+	
+}
